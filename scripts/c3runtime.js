@@ -4441,10 +4441,11 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Keyboard.Cnds.IsKeyDown,
 		C3.Behaviors.Car.Acts.SetMaxSpeed,
 		C3.Plugins.System.Cnds.Else,
-		C3.Plugins.System.Acts.GoToLayout,
+		C3.Plugins.System.Acts.RestartLayout,
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.Mouse.Cnds.OnAnyClick,
-		C3.Plugins.System.Cnds.CompareVar
+		C3.Plugins.System.Cnds.CompareVar,
+		C3.Plugins.System.Acts.GoToLayout
 	];
 };
 self.C3_JsPropNameTable = [
